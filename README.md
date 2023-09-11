@@ -1,24 +1,27 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Challenge
+User Story 1 - Markets Index Page
+As a visitor,
+When I visit '/markets'
+I see all markets listed with their name, city and state
+When I click a button to see more info on that market
+I'm taken to that market's show page '/markets/:id'
 
-Things you may want to cover:
+Wireframe for /markets index
 
-* Ruby version
+User Story 2 - Markets Show Page
+As a visitor,
+When I visit a market's show page 'markets/:id'
+I see that market's name and readable address
+And I also see a list of all the Vendors that are at that market
+Each vendor name is a link to that vendor's show page
 
-* System dependencies
+Wireframe for /markets show
 
-* Configuration
+User Story 3 - Vendor Show Page
+As a visitor
+When I visit a vendor's show page 'vendors/:id'
+I see that vendor's name, contact information, whether they accept credit, and a description of what they sell
 
-* Database creation
+Wireframe for /vendors show
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
