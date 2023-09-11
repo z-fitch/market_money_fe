@@ -1,0 +1,317 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/123
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - f3347cbb-e5da-4bf6-af1c-9f2a40034229
+      X-Runtime:
+      - '0.038854'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.09, sql.active_record;dur=8.43, instantiation.active_record;dur=0.04,
+        process_action.action_controller;dur=31.56
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"errors":[{"detail":"Couldn''t find Vendor with ''id''=123"}]}'
+  recorded_at: Mon, 11 Sep 2023 03:27:36 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/55297
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"74daca843b392240baee8284c2882f36"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a162eae9-336b-44d3-870e-c174510d379e
+      X-Runtime:
+      - '0.013025'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.09, sql.active_record;dur=1.27, instantiation.active_record;dur=0.10,
+        process_action.action_controller;dur=3.15
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"55297","type":"vendor","attributes":{"name":"Orange
+        County Olive Oil","description":"Handcrafted olive oil made from locally grown
+        olives","contact_name":"Syble Hamill","contact_phone":"1-276-593-3530","credit_accepted":false}}}'
+  recorded_at: Mon, 11 Sep 2023 03:28:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/55297
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"74daca843b392240baee8284c2882f36"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b0bf0574-e299-4a92-bede-ded1b551b347
+      X-Runtime:
+      - '0.002948'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.44, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=0.81
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"55297","type":"vendor","attributes":{"name":"Orange
+        County Olive Oil","description":"Handcrafted olive oil made from locally grown
+        olives","contact_name":"Syble Hamill","contact_phone":"1-276-593-3530","credit_accepted":false}}}'
+  recorded_at: Mon, 11 Sep 2023 03:28:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/55297
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"74daca843b392240baee8284c2882f36"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 94e78341-d9d1-4cf1-b978-500572a8743f
+      X-Runtime:
+      - '0.003083'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.05, sql.active_record;dur=0.46, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=0.87
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"55297","type":"vendor","attributes":{"name":"Orange
+        County Olive Oil","description":"Handcrafted olive oil made from locally grown
+        olives","contact_name":"Syble Hamill","contact_phone":"1-276-593-3530","credit_accepted":false}}}'
+  recorded_at: Mon, 11 Sep 2023 03:28:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/55297
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"74daca843b392240baee8284c2882f36"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f77113fe-bd3c-42a8-bd5e-2db03219d520
+      X-Runtime:
+      - '0.010033'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.07, sql.active_record;dur=0.64, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=1.11
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"55297","type":"vendor","attributes":{"name":"Orange
+        County Olive Oil","description":"Handcrafted olive oil made from locally grown
+        olives","contact_name":"Syble Hamill","contact_phone":"1-276-593-3530","credit_accepted":false}}}'
+  recorded_at: Mon, 11 Sep 2023 03:28:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v0/vendors/55297
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"74daca843b392240baee8284c2882f36"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 453d9284-70c1-4d36-94fc-1e44ce070329
+      X-Runtime:
+      - '0.002967'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.05, sql.active_record;dur=0.48, instantiation.active_record;dur=0.01,
+        process_action.action_controller;dur=0.85
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"55297","type":"vendor","attributes":{"name":"Orange
+        County Olive Oil","description":"Handcrafted olive oil made from locally grown
+        olives","contact_name":"Syble Hamill","contact_phone":"1-276-593-3530","credit_accepted":false}}}'
+  recorded_at: Mon, 11 Sep 2023 03:28:58 GMT
+recorded_with: VCR 6.2.0
